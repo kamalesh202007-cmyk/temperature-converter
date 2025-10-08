@@ -41,5 +41,5 @@ def temperature_converter():
     except ValueError:
         print("❌ Invalid temperature input. Please enter a numeric value.")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     temperature_converter()
